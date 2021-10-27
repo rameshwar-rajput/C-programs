@@ -2,6 +2,7 @@
 #include <stdio.h>
 void main()
 {
+
     float base, height, area;
     printf("Enter base\n");
     scanf("%f", &base);
@@ -9,6 +10,9 @@ void main()
     scanf("%f", &height);
     area = base * height / 2;
     printf("Area : %f", area);
+
+    printf("Sum of base and height is:- %f %f ",height+base);
+=======
     printf("Enter dimensions for triangle with different sides");
     int a,b,c,s;
     scanf("%f", &a);
@@ -18,4 +22,5 @@ void main()
     double are;
     are=sqrt(s*(s-a)*(s-b)*(s-c));
     printf("Area : %f", are);
+
 }
