@@ -7,5 +7,5 @@ void main()
     scanf("%d", &n);
     for (i = 0; i < n; i++)
         sum = sum + i;
-    printf("Sum of first %d numbers is %d\n", n, sum);
+    printf("Sum of first %d number is %d\n", n, sum);
 }
