@@ -2,7 +2,7 @@
 #include <math.h>
 void main()
 {
-    printf("Vidush Agarwal 1000014277\n");
+    printf("Eshank Jain 1000014017\n");
     int n, i, sum = 0;
     printf("Enter number\n");
     scanf("%d", &n);
