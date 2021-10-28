@@ -1,7 +1,7 @@
 #include <stdio.h>
 void main()
 {
-    printf("Vidush Agarwal 1000014277\n");
+    printf("Eshank Jain 1000014017\n");
     int n, sum = 0, i;
     printf("Enter Number : ");
     scanf("%d", &n);
