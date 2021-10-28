@@ -8,7 +8,7 @@ int power(int x, int y)
 }
 void main()
 {
-        printf("Vidush Agarwal 1000014277\n");
+        printf("ESHANK JAIN 1000014\n");
         int x, y, ans;
         printf("Enter x\n");
         scanf("%d", &x);
