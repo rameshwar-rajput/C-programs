@@ -1,4 +1,6 @@
-#include <stdio.h>
+#include <bits/stdc++.h>
+
+usingnamespace std;
 void main()
 {
     printf("Vidush Agarwal 1000014277\n");
