@@ -1,26 +1,24 @@
 #include <stdio.h>
-
-
- main()
+main()
 {
-    int n, i, j;
+    int nt, it, jt;
     printf("Enter size of list : ");
-    scanf("%d", &n);
-    int a[n];
+     scanf("%d", &nt);
+    int ab[nt];
     printf("Enter values\n");
-    for (i = 0; i < n; i++)
+    for (it = 0; it < nt; it++)
     {
-        scanf("%d", &a[i]);
+        scanf("%d", &ab[it]);
     }
-    for (i = 1; i <= 3; i++)
+    for (it = 1; it <= 3; it++)
     {
-        for (j = i; j < n; j++)
+        for (jt = it; jt < nt; jt++)
         {
-            a[j] = a[j + 1];
+            ab[jt] = ab[jt + 1];
         }
     }
     printf("Values after removing elements\n");
-    for (i = 0; i < n - 3; i++)
-        printf("%d\n", a[i]);
-    printf("Last value : ", a[n]);
+    for (it = 0; it < nt - 3; it++)
+        printf("%d\n", ab[it]);
+    printf("Last value : ", ab[nt]);
 }
