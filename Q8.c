@@ -1,4 +1,7 @@
-#include <stdio.h>
+#include<bits/stdc.h>
+
+using namespace std;
+
 void main()
 {
     printf("Vidush Agarwal 1000014277\n");
